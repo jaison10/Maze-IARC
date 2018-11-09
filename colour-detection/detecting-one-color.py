@@ -52,4 +52,5 @@ cv2.waitKey(0)
 cv2.imwrite("black.png", masked)
 
 del(camera)
-
+cap.release()
+cv2.destroyAllWindows()
